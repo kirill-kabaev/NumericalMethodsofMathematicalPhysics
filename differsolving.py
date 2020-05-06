@@ -1,7 +1,7 @@
+# U=k\x\
 import matplotlib.pyplot as plt
 import time
 from tqdm import tqdm
-# U=k\x\
 import numpy as np
 from numba import njit
 f0=0.01 #0.0026
