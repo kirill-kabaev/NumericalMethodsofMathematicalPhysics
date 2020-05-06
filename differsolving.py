@@ -9,7 +9,6 @@ Omega1=1
 Omega2=1.2
 k=0.6
 A=((3.*np.pi)/(4.*np.sqrt(2.)))
-#   global Omega1, Omega2, f0, A
 @njit
 def ThetaDif(t,Theta,I):
     return  (2./3.)*A*(k**(2./3.))* (I ** (-1./3.))-A* f0 *(k**(-1./3.))*(I ** (-1./3.))*np.abs(np.cos(Theta))*(np.cos(Omega1*t)+np.cos(Omega2*t))
