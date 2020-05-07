@@ -5,7 +5,7 @@ from tqdm import tqdm
 import numpy as np
 from numba import njit
 f0=0.01 #0.0026
-Omega1=1
+Omega1=1.
 Omega2=1.2
 k=0.6
 A=((3.*np.pi)/(4.*np.sqrt(2.)))
