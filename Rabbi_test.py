@@ -18,7 +18,6 @@ Trubbi=2
 # dt = 0.1
 #Nstep = int(2 * np.pi /(w*dt))
 tmax = Trubbi*2*2*np.pi/np.sqrt((wq-w)*(wq-w)+Am*Am)
-Nstep=int(tmax/(2*np.pi/w))*6
 tlist = np.linspace(0, tmax, 1000)
 S1=Qobj([[1,0],[0,0]])
 sm = destroy(2)
