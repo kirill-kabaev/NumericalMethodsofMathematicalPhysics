@@ -1,7 +1,5 @@
 program MMK
-    !include "mkl.fi"
-    !include "omp_lib.h"
-    
+    include "mkl.fi"   
     include "omp_lib.h"
     
     integer, parameter :: num_stream = 4
